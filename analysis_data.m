@@ -23,7 +23,7 @@ lh = plot(d{1}(:,2),d{1}(:,1),'ok',xi, yi{1},'-k',...
     d{2}(:,2),d{2}(:,1),'sr',xi, yi{2},'-r', ...
     d{3}(:,2),d{3}(:,1),'^b',xi, yi{3},'-b');
 set(lh,'linewidth',1.5);
-lh = legend('AC13','AC13-fit','AC16','AC16-fit','SMA','SMA-fit');
+lh = legend('AC13 (4.32%)','AC13-fit','AC16 (4.79%)','AC16-fit','SMA (3.27%)','SMA-fit');
 set(lh,'location','northwest');
 grid on;
 xlabel('Energy (PJ)');
